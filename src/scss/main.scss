@@ -1,0 +1,28 @@
+// BASE
+@import "Base/_reset.scss";
+@import "Base/_normalize.scss";
+
+// HELPER
+@import './Helpers/_variables.scss';
+@import 'Helpers/_mixin.scss';
+@import 'Helpers/_function.scss';
+
+// Compnents
+@import 'Components/_button.scss';
+
+// Layout
+@import './Layouts/_header.scss';	
+@import 'Layouts/_vehicle-header.scss';
+@import 'Layouts/_search.scss';
+@import 'Layouts/_footer.scss';
+
+// Page
+@import 'Pages/_carousel.scss';
+@import 'Pages/_intro.scss';
+@import 'Pages/_our-vehicle.scss';
+
+// Responsive
+// @import 'Responsive/_lgScreen.scss';
+@import 'Responsive/_mdScreen.scss';
+@import 'Responsive/_smScreen.scss';
+@import 'Responsive/_xsScreen.scss';
